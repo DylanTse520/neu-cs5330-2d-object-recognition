@@ -2,5 +2,5 @@
 
 rm -rf build && mkdir build && cd build && cmake .. && make
 
-./2DObjRecog --km &
+./2DObjRecog &
 wait
